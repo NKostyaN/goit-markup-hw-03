@@ -99,13 +99,14 @@ img {
 }
 
 .header {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   font-weight: 500;
   color: var(--navy-blue-cl);
   border-bottom: 1px solid var(--cornflower-cl);
 }
 
 .header .container {
+  padding: 24px 0;
   display: flex;
   align-items: center;
   flex-grow: 0;
