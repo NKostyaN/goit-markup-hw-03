@@ -90,8 +90,6 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
 }
 
 .section {
@@ -99,14 +97,12 @@ img {
 }
 
 .header {
-  /* padding: 24px 0; */
   font-weight: 500;
   color: var(--navy-blue-cl);
   border-bottom: 1px solid var(--cornflower-cl);
 }
 
 .header .container {
-  padding: 24px 0;
   display: flex;
   align-items: center;
   flex-grow: 0;
@@ -138,6 +134,10 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .nav-link {
