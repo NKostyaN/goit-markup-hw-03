@@ -29,6 +29,7 @@ body {
   color: var(--slate-cl);
   background-color: var(--white-cl);
 }
+
 h1,
 h2,
 h3,
@@ -38,30 +39,34 @@ h6,
 p {
   margin: 0;
 }
+
 ul,
 ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 address {
   font-style: normal;
 }
+
 a {
   color: currentColor;
   text-decoration: none;
 }
+
 button {
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* #endregion */
 
 .card-set {
   display: flex;
@@ -69,6 +74,7 @@ img {
   row-gap: var(--row-indent);
   column-gap: var(--col-indent);
 }
+
 .card-set-item {
   width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
 }
@@ -95,7 +101,9 @@ img {
 .section {
   padding: 120px 0;
 }
+/* #endregion */
 
+/* #region Header */
 .header {
   font-weight: 500;
   color: var(--navy-blue-cl);
@@ -105,7 +113,13 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  flex-grow: 0;
+  /* flex-grow: 0; */
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .header-logo {
@@ -125,22 +139,14 @@ img {
   color: var(--navy-blue-cl);
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .nav-list {
   display: flex;
   gap: 40px;
 }
 
-.nav-item {
-  padding: 24px 0;
-}
-
 .nav-link {
+  display: inline-block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   font-style: normal;
@@ -182,7 +188,9 @@ img {
 .contacts-link:focus {
   color: var(--ocean-cl);
 }
+/* #endregion */
 
+/* #region Hero */
 .hero {
   padding: 188px 0;
   height: 600px;
@@ -231,7 +239,9 @@ img {
 .hero-btn:focus {
   background: var(--ocean-cl);
 }
+/* #endregion */
 
+/* #region Mission */
 .mission-list {
   display: flex;
   gap: 24px;
@@ -258,7 +268,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate-cl);
 }
+/* #endregion */
 
+/* #region Team */
 .team {
   background: var(--cloud-cl);
 }
@@ -310,7 +322,9 @@ img {
   text-align: center;
   color: var(--slate-cl);
 }
+/* #endregion */
 
+/* #region Portfolio */
 .portfolio-head {
   margin-bottom: 72px;
   font-weight: 700;
@@ -347,7 +361,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate-cl);
 }
+/* #endregion */
 
+/* #region Footer */
 .footer {
   width: 264;
   padding-top: 100px;
@@ -381,3 +397,4 @@ img {
   letter-spacing: 0.02em;
   color: var(--cloud-cl);
 }
+/* #endregion */
